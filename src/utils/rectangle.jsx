@@ -2,9 +2,10 @@
 
 import {
 	default as React,
-	PropTypes,
 	Component
 } from 'react';
+
+import PropTyes from 'prop-types';
 
 import {
 	default as ReactDOM

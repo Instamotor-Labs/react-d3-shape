@@ -3,8 +3,9 @@
 import {
   default as React,
   Component,
-  PropTypes,
 } from 'react';
+
+import PropTyes from 'prop-types';
 
 import {
   scale,
