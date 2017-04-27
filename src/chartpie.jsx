@@ -5,7 +5,7 @@ import {
   Component,
 } from 'react';
 
-import PropTyes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import {
   scale,
