@@ -360,13 +360,14 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-loader@~7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.0.0.tgz#2e43a66bee1fff4470533d0402c8a4532fafbaf7"
+babel-loader@~6:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-6.4.1.tgz#0b34112d5b0748a8dcdbf51acf6f9bd42d50b8ca"
   dependencies:
     find-cache-dir "^0.1.1"
-    loader-utils "^1.0.2"
+    loader-utils "^0.2.16"
     mkdirp "^0.5.1"
+    object-assign "^4.0.1"
 
 babel-messages@^6.23.0:
   version "6.23.0"
@@ -729,8 +730,8 @@ babel-plugin-transform-react-jsx@^6.24.1:
     babel-runtime "^6.22.0"
 
 babel-plugin-transform-react-remove-prop-types@~0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.2.tgz#97e3cab4d05938df91e16c0473737ef6c575a2e6"
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-remove-prop-types/-/babel-plugin-transform-react-remove-prop-types-0.4.3.tgz#fdff5c12933efc3ac979817adcdc0f612c5e3563"
 
 babel-plugin-transform-regenerator@^6.24.1:
   version "6.24.1"
@@ -2229,7 +2230,7 @@ lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
 
-loader-utils@^0.2.11, loader-utils@^0.2.15, loader-utils@^0.2.3, loader-utils@^0.2.7, loader-utils@~0.2.2:
+loader-utils@^0.2.11, loader-utils@^0.2.15, loader-utils@^0.2.16, loader-utils@^0.2.3, loader-utils@^0.2.7, loader-utils@~0.2.2:
   version "0.2.17"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-0.2.17.tgz#f86e6374d43205a6e6c60e9196f17c0299bfb348"
   dependencies:
@@ -2237,14 +2238,6 @@ loader-utils@^0.2.11, loader-utils@^0.2.15, loader-utils@^0.2.3, loader-utils@^0
     emojis-list "^2.0.0"
     json5 "^0.5.0"
     object-assign "^4.0.1"
-
-loader-utils@^1.0.2:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.1.0.tgz#c98aef488bcceda2ffb5e2de646d6a754429f5cd"
-  dependencies:
-    big.js "^3.1.3"
-    emojis-list "^2.0.0"
-    json5 "^0.5.0"
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -2976,15 +2969,15 @@ react-bootstrap@0.31.0:
     uncontrollable "^4.1.0"
     warning "^3.0.0"
 
-"react-d3-core@git://github.com/instamotor-labs/react-d3-core":
+"react-d3-core@git://github.com/Instamotor-Labs/react-d3-core":
   version "1.3.9"
-  resolved "git://github.com/instamotor-labs/react-d3-core#40821877ccf7f3049e5419789baf2ddcd0d4f4fa"
+  resolved "git://github.com/Instamotor-Labs/react-d3-core#08610a3538f31972d4472d2bb90e67b8d2ad00a4"
   dependencies:
     d3-array "^0.7.1"
     d3-axis "^0.3.0"
     d3-scale "^0.6.4"
     d3-selection "^0.7.0"
-    react-faux-dom "^2.3.0"
+    react-faux-dom "^3.1.0"
 
 react-deep-force-update@^1.0.0:
   version "1.0.1"
@@ -2999,9 +2992,9 @@ react-dom@^15.5.4:
     object-assign "^4.1.0"
     prop-types "~15.5.7"
 
-react-faux-dom@^2.3.0:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/react-faux-dom/-/react-faux-dom-2.7.1.tgz#d59e1906715c34d1a9bdc4a9f48ee96c5d6fa86f"
+react-faux-dom@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-faux-dom/-/react-faux-dom-3.1.0.tgz#d070ce8068bcf10e19b5dec329d2da671aa6734b"
   dependencies:
     query-selector "^1.0.9"
     style-attr "^1.0.1"

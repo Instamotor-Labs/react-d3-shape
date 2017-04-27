@@ -17,7 +17,7 @@
     "babel-cli": "^6.6.4",
     "babel-core": "^6.5.2",
     "babel-eslint": "~7.2.3",
-    "babel-loader": "~7.0.0",
+    "babel-loader": "~6",
     "babel-plugin-add-module-exports": "~0.2.1",
     "babel-plugin-react-transform": "^2.0.0",
     "babel-plugin-transform-react-remove-prop-types": "~0.4.2",
@@ -44,7 +44,7 @@
     "webpack-hot-middleware": "^2.9.0"
   },
   "peerDependencies": {
-    "prop-types": ">=@15.5.0",
+    "prop-types": ">=15.5.0",
     "react": ">=15.5.0",
     "react-dom": ">=15.5.0"
   },
@@ -52,6 +52,6 @@
     "d3": "^3.5.6",
     "d3-scale": "^0.6.4",
     "d3-shape": "^0.5.1",
-    "react-d3-core": "git://github.com/instamotor-labs/react-d3-core"
+    "react-d3-core": "git://github.com/Instamotor-Labs/react-d3-core"
   }
 }
