@@ -40,7 +40,10 @@ module.exports = [{
   },
 
   resolve: {
-    extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx']
+    extensions: ['', '.webpack.js', '.web.js', '.js', '.jsx'],
+    alias: {
+      'react-d3-core': '@instamotor-labs/react-d3-core'
+    }
   },
 
   externals: {
